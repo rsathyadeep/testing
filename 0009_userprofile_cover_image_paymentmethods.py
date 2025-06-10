@@ -20,7 +20,6 @@ class Migration(migrations.Migration):
             name='PaymentMethods',
             fields=[
                 ('payment_method_id', models.AutoField(primary_key=True, serialize=False)),
-                ('payment_method_name', models.CharField(max_length=255)),
             ],
         ),
     ]
