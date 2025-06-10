@@ -21,7 +21,6 @@ class Migration(migrations.Migration):
             fields=[
                 ('payment_method_id', models.AutoField(primary_key=True, serialize=False)),
                 ('payment_method_name', models.CharField(max_length=255)),
-                ('country', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='payment_methods', to='Profile_app.country')),
             ],
         ),
     ]
