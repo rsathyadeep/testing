@@ -12,7 +12,6 @@ class Migration(migrations.Migration):
     operations = [
         migrations.AlterField(
             model_name='address',
-            name='created_by',
             field=models.CharField(default=1, max_length=50),
             preserve_default=False,
         ),
