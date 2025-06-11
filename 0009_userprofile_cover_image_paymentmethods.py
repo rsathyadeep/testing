@@ -19,7 +19,6 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='PaymentMethods',
             fields=[
-                ('payment_method_id', models.AutoField(primary_key=True, serialize=False)),
             ],
         ),
     ]
