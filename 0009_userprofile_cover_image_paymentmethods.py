@@ -9,16 +9,3 @@ class Migration(migrations.Migration):
     dependencies = [
         ('Profile_app', '0008_add_indian_states'),
     ]
-
-    operations = [
-        migrations.AddField(
-            model_name='userprofile',
-            name='cover_image',
-            field=models.URLField(blank=True, null=True),
-        ),
-        migrations.CreateModel(
-            name='PaymentMethods',
-            fields=[
-            ],
-        ),
-    ]
